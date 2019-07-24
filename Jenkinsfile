@@ -22,4 +22,3 @@ node('master') {
     echo 'This will always run'
   }
 }
-}
