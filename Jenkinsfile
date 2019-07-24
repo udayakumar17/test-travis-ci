@@ -9,8 +9,8 @@ node('master') {
       sh("npm install")
     }
     stage('Unit testing') {
-      echo "npm install"
-      sh("npm install")
+      echo "unit test cases"
+      sh("node index.js")
     }
     stage('Finish') {
         println('Build complete.')
